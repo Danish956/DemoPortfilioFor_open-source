@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer & Founder Portfolio | [Your Name]</title>
+    <!-- Using Inter font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!-- Icon library (Phosphor Icons for a modern look) -->
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="light">
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <a href="#home" class="logo">DevFoundr.</a>
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#youtube">Tutorials</a>
+            <a href="#contacts">Contact</a>
+        </nav>
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+            <i class="ph-sun"></i>
+        </button>
+    </header>
+
+    <!-- 1. Home Section -->
+    <section id="home">
+        <div class="fade-in">
+            <h1 class="hero-title">Hi, I'm Lucifer</h1>
+            <p class="hero-subtitle">Developer, Founder, and Open-Source Contributor.</p>
+            <p style="max-width: 600px; margin-bottom: 40px; font-size: 1.1rem;">I build scalable web applications and mentor the next generation of engineers through hands-on, community-driven projects.</p>
+            <a href="#" class="cta-button">View My Work</a>
+        </div>
+    </section>
+
+    <!-- 2. About Section -->
+    <section id="about" style="background-color: var(--color-surface);">
+        <h2 class="fade-in">About Me</h2>
+        <div class="about-content fade-in">
+            <img src="https://placehold.co/300x300/1a73e8/ffffff?text=Profile+Photo" alt="A professional portrait of [Your Name]" class="profile-img">
+            <div class="about-text">
+                <h3 class="fade-in">The Visionary Behind the Code</h3>
+                <p class="fade-in">I am a full-stack engineer with 10+ years of experience building and scaling technology startups. My journey has focused on creating robust, high-performance systems using modern JavaScript, Python, and cloud infrastructure.</p>
+                <p class="fade-in" style="margin-top: 15px;">My Vision: To lower the barrier to entry for new developers. I launched this portfolio as an open-source project to provide a tangible, welcoming environment for students to make their first public contributions, learn version control, and understand code review best practices. I believe in learning by doing, and this is the perfect playground!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Projects Section -->
+    <section id="projects">
+        <h2 class="fade-in">Featured Projects</h2>
+        <div class="project-grid">
+            
+            <article class="project-card fade-in">
+                <div>
+                    <h3>Project Nexus</h3>
+                    <p>A collaborative documentation platform built with Node.js and PostgreSQL. Designed for real-time content synchronization.</p>
+                </div>
+                <div class="project-links">
+                    <a href="#" target="_blank"><i class="ph-code"></i> Code</a>
+                    <a href="#" target="_blank"><i class="ph-globe"></i> Live Demo</a>
+                </div>
+            </article>
+
+            <article class="project-card fade-in" style="transition-delay: 0.1s;">
+                <div>
+                    <h3>DataViz Dashboard</h3>
+                    <p>An interactive data visualization tool using D3.js to process and display complex financial metrics dynamically.</p>
+                </div>
+                <div class="project-links">
+                    <a href="#" target="_blank"><i class="ph-code"></i> Code</a>
+                    <a href="#" target="_blank"><i class="ph-globe"></i> Live Demo</a>
+                </div>
+            </article>
+
+            <article class="project-card fade-in" style="transition-delay: 0.2s;">
+                <div>
+                    <h3>OSS Portfolio Template</h3>
+                    <p>The very project you are viewing! Maintained to be the perfect "good first issue" resource for students worldwide.</p>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/yourusername/portfolio-project" target="_blank"><i class="ph-code"></i> GitHub Repo</a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- 4. Experience Section -->
+    <section id="experience" style="background-color: var(--color-surface);">
+        <h2 class="fade-in">My Experience</h2>
+        <div class="timeline">
+            
+            <div class="timeline-item right fade-in">
+                <div class="timeline-content">
+                    <h4>CTO & Co-Founder</h4>
+                    <span class="duration">2026 - Present</span>
+                    <p>Leading the technical strategy and development team at InnovateTech, resulting in 500% user growth.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item left fade-in" style="transition-delay: 0.1s;">
+                <div class="timeline-content">
+                    <h4>Senior Software Engineer</h4>
+                    <span class="duration">2022 - 2025</span>
+                    <p>Developed core payment gateway services at BigCorp, handling over \$1M in daily transactions.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item right fade-in" style="transition-delay: 0.2s;">
+                <div class="timeline-content">
+                    <h4>Software Developer I</h4>
+                    <span class="duration">2022 - 2023</span>
+                    <p>Started my career focusing on frontend development, mastering responsive design and JavaScript fundamentals.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item left fade-in" style="transition-delay: 0.3s;">
+                <div class="timeline-content">
+                    <h4>B.S. Computer Science</h4>
+                    <span class="duration">2011 - 2015</span>
+                    <p>Graduated with honors, specializing in algorithms and distributed systems.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+    <!-- 5. YouTube Tutorials Section -->
+    <section id="youtube">
+        <h2 class="fade-in">YouTube Tutorials</h2>
+        <p class="fade-in" style="text-align: center; margin-bottom: 40px; max-width: 800px; margin-left: auto; margin-right: auto;">Sharing knowledge on modern web development, cloud architecture, and open-source practices. Subscribe for weekly deep dives!</p>
+        <div class="video-grid">
+            
+            <!-- Replace 'VIDEO_ID' with actual YouTube video IDs -->
+            <a href="https://youtu.be/SFdL72O4K80?si=-g1Nkr2B9IbR0wZ-" target="_blank" class="video-card fade-in">
+                <img src="https://i.ytimg.com/vi/YMVsLHi2khY/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD7cYfMBIncWg7DDnhPyHXLTnfZpw" onerror="this.src='https://placehold.co/320x180/4a4a4a/ffffff?text=Video+1';" alt="Thumbnail for Video 1">
+                <div class="video-info">
+                    <h4>The Most Powerful DSA Series</h4>
+                </div>
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=VIDEO_ID_2" target="_blank" class="video-card fade-in" style="transition-delay: 0.1s;">
+                <img src="https://img.youtube.com/vi/VIDEO_ID_2/mqdefault.jpg" onerror="this.src='https://placehold.co/320x180/4a4a4a/ffffff?text=Video+2';" alt="Thumbnail for Video 2">
+                <div class="video-info">
+                    <h4>Python Bootcamp</h4>
+                </div>
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=VIDEO_ID_3" target="_blank" class="video-card fade-in" style="transition-delay: 0.2s;">
+                <img src="https://img.youtube.com/vi/VIDEO_ID_3/mqdefault.jpg" onerror="this.src='https://placehold.co/320x180/4a4a4a/ffffff?text=Video+3';" alt="Thumbnail for Video 3">
+                <div class="video-info">
+                    <h4>DSA Roadmap</h4>
+                </div>
+            </a>
+            
+        </div>
+    </section>
+
+    <!-- 6. Contact Section -->
+    <section id="contact" style="background-color: var(--color-surface);">
+        <h2 class="fade-in">Get In Touched</h2>
+        <div class="contact-content">
+            <form class="contact-form fade-in" action="YOUR_FORM_SUBMISSION_ENDPOINT" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="cta-button" style="width: 100%;">Send Message</button>
+            </form>
+            <div class="contact-info fade-in" style="transition-delay: 0.1s;">
+                <h3>Connect with Me</h3>
+                <p>I'm always open to discussing new projects, collaborative ventures, and open-source ideas. Feel free to reach out directly.</p>
+                <p style="margin-top: 20px;"><i class="ph-envelope-simple-fill" style="color: var(--color-primary);"></i> Email: <a href="mailto:you@example.com" style="color: var(--color-text-body);">you@example.com</a></p>
+                
+                <div class="social-links">
+                    <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub"><i class="ph-github-logo-fill"></i></a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn"><i class="ph-linkedin-logo-fill"></i></a>
+                    <a href="https://twitter.com/yourusername" target="_blank" aria-label="Twitter"><i class="ph-twitter-logo-fill"></i></a>
+                    <a href="https://youtube.com/yourchannel" target="_blank" aria-label="YouTube"><i class="ph-youtube-logo-fill"></i></a>
+                </div>
+
+                <!-- GitHub Stats Badge Placeholder (Bonus) -->
+                <p style="margin-top: 40px; font-size: 0.9rem; color: var(--color-text-body);">
+                    <!-- You can replace this image source with a live GitHub stats badge service -->
+                    Open Source Stats: 
+                    <img src="https://placehold.co/150x20/cccccc/000000?text=GitHub+Stats+Badge" alt="GitHub Stats Placeholder" style="vertical-align: middle; margin-left: 10px;">
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2024 Alpha Intern. All Rights Reserved. Built with <i class="ph-heart-fill" style="color: var(--color-primary); font-size: 1rem; vertical-align: middle;"></i> and Open Source. MIT License.
+    </footer>
+
+    <!-- Scroll-to-Top Button -->
+    <button id="scroll-to-top" aria-label="Scroll to top">
+        <i class="ph-arrow-up-fill"></i>
+    </button>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
