@@ -258,6 +258,7 @@ h2 {
     left: 50%;
     margin-left: -2px;
     z-index: 1;
+    
 }
 
 .timeline-item {
@@ -265,6 +266,7 @@ h2 {
     position: relative;
     background-color: inherit;
     width: 50%;
+    
 }
 
 .timeline-item::after {
@@ -278,6 +280,7 @@ h2 {
     top: 15px;
     border-radius: 50%;
     z-index: 2;
+    
 }
 
 .left {
@@ -289,7 +292,7 @@ h2 {
 }
 
 .right::after {
-    left: -16px;
+    left: -19px;
 }
 
 .timeline-content {
